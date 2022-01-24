@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 700px;
+    margin: 100px auto;
+    height: 700px;
+    background: gray;
+    align-content: center;
+}
+
+.item
+{
+    /*efecto grilla*/
+    flex: 0 1 23%;
+    margin-bottom: 2%;
+    
+    height: 100px;
+    width: 100px;
+    background: rgb(0, 162, 255);
+    text-align: center;
+    color: aliceblue;
+}

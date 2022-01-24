@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-nav
+{
+    display: flex;
+    background-color: steelblue;
+    list-style: none;
+}
+
+.menu-nav li
+{
+    /* cada li se distribuye uniformemente en el ancho del padre */
+    flex:auto;
+    text-align: center;
+    border-right: 1px solid rgb(0, 0, 0, .2);
+}
+
+.menu-nav li:last-child
+{
+    border-right: none;
+}
+
+.menu-nav a
+{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 3;
+}
+
+.menu-nav a:hover
+{
+    background: rgba(0, 0, 0,.2);
+}

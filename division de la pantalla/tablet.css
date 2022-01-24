@@ -1,0 +1,21 @@
+body
+{
+    flex-direction: column;
+}
+
+main, aside
+{
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+}
+
+main
+{
+    align-items: flex-start;
+}
+
+aside
+{
+    align-items: flex-end;
+}

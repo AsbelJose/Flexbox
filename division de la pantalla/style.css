@@ -1,0 +1,36 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+aside, main
+{
+    width: 50%;
+    padding: 0.3em;
+    display: flex;
+    align-items: center;
+}
+
+aside
+{
+    background: #333;
+    color: #eee;
+    justify-content: flex-end;
+}
+
+main
+{
+    background: #eee;
+    color: #333;
+    justify-content: flex-start;
+}
