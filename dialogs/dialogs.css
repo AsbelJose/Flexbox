@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box_dialog
+{
+    background-color: rgb(245, 234, 83);
+    padding: 20px;
+    width: 300px;
+    border-radius: 6px;
+}
+
+p
+{
+    color: gray;
+}
+
+footer
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button
+{
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    color:green;
+}
